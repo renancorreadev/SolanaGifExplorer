@@ -19,7 +19,7 @@ const App = () => {
   const [walletAddress, setWalletAddress] = useState(null);
   const [inputValue, setInputValue] = useState('');
 
-  // Actions
+  // Actions and last
   const checkIfWalletIsConnected = async () => {
     try {
       const { solana } = window;
